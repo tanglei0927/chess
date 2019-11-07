@@ -20,9 +20,10 @@ const routes = [
   }
 ]
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
+const router = new VueRouter({//打包后会白屏，所以需注释掉mode，base设置为__dirname
+  // mode: 'history',
+  // base: process.env.BASE_URL,
+  base:__dirname,
   routes
 })
 

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/********** 初始化样式 ***********/
+*{
+	/*用来解决，页面点击链接时会出现高亮框*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	/*禁用手机浏览器的用户选择文本复制功能*/
+	/*-webkit-user-select:none;*/
+	/*解决IOS上面的按钮显示问题*/
+	/*-webkit-appearance:none;*/
+}
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,input,textarea{padding: 0;margin: 0;}
+a{text-decoration: none;color: inherit;}
+li{list-style: none;}
+img{vertical-align: middle;border: 0;}
+input,textarea{outline: none;background: none;}
+input,textarea,select{color: inherit;font-size: inherit;font-family: inherit;}
+textarea{resize:none;}
+input{
+	border:0;
+}
+.cl:after{content: "";display: block;clear: both;height:0;overflow:hidden;visibility: hidden;}
+.cl{zoom: 1;}
+
+
+html{font-size: calc(100vw/13.34);}
+body{font-size: .24rem;}
+
